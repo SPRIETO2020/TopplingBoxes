@@ -9,15 +9,15 @@ function setup(){
     var canvas = createCanvas(400,400);
     engine = Engine.create();
     world = engine.world;
-    fill("orange");
+    //fill("orange");
     box1 = new Box(200,300,50,50);
-    fill("yellow");
+    //fill("yellow");
     box2 = new Box(240,100,50,100);
-    fill("purple");
+    //fill("purple");
     box3 = new Box(180,300,50,50);
-    fill("blue");
+    //fill("blue");
     box4 = new Box(280,300,50,70);
-    fill("green");
+    //fill("green");
     box5 = new Box(310,300,60,50);
     ground = new Ground(200,height,400,20)
 }
